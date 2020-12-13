@@ -23,7 +23,6 @@ Still if the dependencies are not downloaded then follow these steps: In Eclipse
 
 
 
-
 # To run the program from command propmt once the dependencies has been resolved:
 
 1.open command prompt.
@@ -31,4 +30,12 @@ Still if the dependencies are not downloaded then follow these steps: In Eclipse
 2.Go to the location where the project is present from command prompt.
 
 3.Then type "mvn clean test -DsuiteXmlFile=testng.xml"
+
+
+# Test Data:
+ 1.Test data are driven from config.properties file and the path to this file is Weather-Reporting-Comparator/src/test/java/config/config.properties.
+ 
+ 
+# To check the logs
+ 1.To see the logs open application.log file and the path to this file is Weather-Reporting-Comparator/src/test/java/config/application.log.
 
