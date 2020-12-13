@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62153" started-at="2020-12-13T21:25:19 IST" finished-at="2020-12-13T21:26:21 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="DriverScript.NavigateToNDTV()[pri:1, instance:scripts.DriverScript@45820e51]" name="NavigateToNDTV" class="scripts.DriverScript"/>
+        <method signature="DriverScript.TemperatureOfCitiesFromAPI()[pri:4, instance:scripts.DriverScript@45820e51]" name="TemperatureOfCitiesFromAPI" class="scripts.DriverScript"/>
+        <method signature="DriverScript.compareTemperature()[pri:5, instance:scripts.DriverScript@45820e51]" name="compareTemperature" class="scripts.DriverScript"/>
+        <method signature="DriverScript.getTemperatureOfCitiesFromUI()[pri:3, instance:scripts.DriverScript@45820e51]" name="getTemperatureOfCitiesFromUI" class="scripts.DriverScript"/>
+        <method signature="DriverScript.goToWeatherSectionPage()[pri:2, instance:scripts.DriverScript@45820e51]" name="goToWeatherSectionPage" class="scripts.DriverScript"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="62153" started-at="2020-12-13T21:25:19 IST" finished-at="2020-12-13T21:26:21 IST">
+      <class name="scripts.DriverScript">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:scripts.DriverScript@45820e51]" name="initialize" is-config="true" duration-ms="19" started-at="2020-12-13T21:25:19 IST" finished-at="2020-12-13T21:25:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="NavigateToNDTV()[pri:1, instance:scripts.DriverScript@45820e51]" name="NavigateToNDTV" duration-ms="40801" started-at="2020-12-13T21:25:19 IST" finished-at="2020-12-13T21:26:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToNDTV -->
+        <test-method status="PASS" signature="goToWeatherSectionPage()[pri:2, instance:scripts.DriverScript@45820e51]" name="goToWeatherSectionPage" duration-ms="1280" started-at="2020-12-13T21:26:00 IST" finished-at="2020-12-13T21:26:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToWeatherSectionPage -->
+        <test-method status="PASS" signature="getTemperatureOfCitiesFromUI()[pri:3, instance:scripts.DriverScript@45820e51]" name="getTemperatureOfCitiesFromUI" duration-ms="15415" started-at="2020-12-13T21:26:01 IST" finished-at="2020-12-13T21:26:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTemperatureOfCitiesFromUI -->
+        <test-method status="PASS" signature="TemperatureOfCitiesFromAPI()[pri:4, instance:scripts.DriverScript@45820e51]" name="TemperatureOfCitiesFromAPI" duration-ms="3189" started-at="2020-12-13T21:26:16 IST" finished-at="2020-12-13T21:26:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TemperatureOfCitiesFromAPI -->
+        <test-method status="PASS" signature="compareTemperature()[pri:5, instance:scripts.DriverScript@45820e51]" name="compareTemperature" duration-ms="6" started-at="2020-12-13T21:26:20 IST" finished-at="2020-12-13T21:26:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTemperature -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.DriverScript@45820e51]" name="closeBrowser" is-config="true" duration-ms="1385" started-at="2020-12-13T21:26:20 IST" finished-at="2020-12-13T21:26:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- scripts.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
